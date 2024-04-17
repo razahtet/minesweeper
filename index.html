@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Raza's Minesweeper</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="prefetch" href="flag.png">
+    <link rel="prefetch" href="flag-x.png">
+    <link rel="prefetch" href="flag-check.png">
+    <link rel="prefetch" href="minI.png">
+    <link rel="icon" href="minI.png">
+</head>
+
+<body>
+    <h1>Minesweeper</h1>
+    <div id="board">
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <div class="row">
+            <div data-x="0"></div>
+            <div data-x="1"></div>
+            <div data-x="2"></div>
+            <div data-x="3"></div>
+            <div data-x="4"></div>
+            <div data-x="5"></div>
+            <div data-x="6"></div>
+            <div data-x="7"></div>
+            <div data-x="8"></div>
+        </div>
+        <audio id="zero" src="zero.mp3"></audio>
+        <audio id="loseSound" src="lose.mp3"></audio>
+        <audio id="winSound" src="victory.mp3"></audio>
+        <audio id="wowSound" src="wow.mp3"></audio>
+    </div>
+    <div id="controls">
+        <h2 id="minesLeft">Mines Left: 10</h2>
+        <h2 id="upa">&larr; The Number of Mines is Very Important!</h2>
+        <h3 id="change">Change your number of mines to put in the game! Press the submit / restart button to do it!</h3>
+        <div id="nM">
+            <input id="nMin" value="10" max="81" type="range">
+        </div>
+        <h3 id="test">Test: 10</h3>
+        <h3>Right Click to flag a mine.</h3>
+        <h3 id="win"></h3>
+        <button id="restartButton">Submit / Restart</button>
+    </div>
+    <img class="flag-image" src="flag.png">
+    <img class="flag-image" src="flag-x.png">
+    <img class="flag-image" src="flag-check.png">
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
