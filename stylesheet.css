@@ -1,0 +1,138 @@
+#board,
+#controls {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+#controls {
+    border: 15px ridge green;
+}
+
+body {
+    font-family: monospace;
+    background-color: lightblue;
+}
+
+#board {
+    font-size: 0;
+    margin-right: 30px;
+    border: 15px ridge black;
+}
+
+.row div.squareO {
+    background-color: white;
+}
+
+.row div.mines1 {
+    color: blue;
+}
+
+.row div.mines2 {
+    color: darkgreen;
+}
+
+.row div.mines3 {
+    color: purple;
+}
+
+.row div.mines4 {
+    color: firebrick;
+}
+
+.row div.mines5 {
+    color: orange;
+}
+
+.row div.mines6 {
+    color: yellowgreen;
+}
+
+.row div.mines7 {
+    color: seagreen;
+}
+
+.row div.mines8 {
+    color: hotpink;
+}
+
+.row div.caught {
+    background-color: crimson;
+}
+
+.row div {
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+
+.flagged {
+    background-image: url("flag.png");
+}
+
+.row div.mines0 {
+    background-color: gray;
+}
+
+.flaggedX {
+    background-image: url("flag-x.png");
+}
+
+.flaggedCheck {
+    background-image: url("flag-check.png");
+}
+
+.flag-image {
+    display: none;
+}
+
+#restartButton {
+    font-family: monospace;
+    background-color: firebrick;
+    color: skyblue;
+    font-size: 20px;
+    border-radius: 200px;
+    border: 15px ridge skyblue;
+    display: block;
+}
+
+#minesLeft,
+#win {
+    color: gold;
+    background-color: red;
+    border: 10px ridge gold;
+    border-radius: 125px;
+}
+
+#minesLeft {
+    display: inline-block;
+}
+
+#win {
+    display: none;
+}
+
+#nM,
+#test {
+    background-color: crimson;
+    border: 10px ridge blue;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+#upa {
+    margin-left: 1%;
+    display: inline-block;
+}
+
+#change {
+    color: green;
+}
